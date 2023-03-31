@@ -198,7 +198,7 @@ health[1:10]
 
 # Read in conservative and labour manifestos (from Recitation 5)
 # ------------------------------------------------------------------
-files <- list.files("W5_03_02_23/cons_labour_manifestos", full.names=TRUE)
+files <- list.files("/Users/julieta/Documents/GitHub/Text-as-Data-Lab-Spring-2023/W5_03_02_23/cons_labour_manifestos", full.names=T)
 text <- lapply(files, readLines)
 text <- unlist(lapply(text, function(x) paste(x, collapse = " ")))
 
