@@ -10,22 +10,7 @@
 
 # Loading packages
 
-rm(list = ls())
-set.seed(1234)
-
-pacman::p_load(ldatuning,
-               topicmodels, 
-               ggplot2,
-               dplyr,
-               rjson,
-               quanteda,
-               tidytext, 
-               stringi,
-               tidyr,
-               lubridate,
-               parallel,
-               doParallel)
-
+no
 
 
 # ============================================================================= #
